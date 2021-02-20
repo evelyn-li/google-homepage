@@ -45,3 +45,22 @@ table {
 }
 
 /* End of CSS Resets */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul, li {
+    display: inline;
+}
+
+li>img {
+    width: 24px;
+    height: 24px;
+}
+
+.profile-pic {
+    width: 32px;
+    height: 32px;
+}
