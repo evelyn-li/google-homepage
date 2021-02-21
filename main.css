@@ -51,6 +51,12 @@ body {
     font-family: arial,sans-serif;
 }
 
+.main {
+    display: flex;
+    flex-direction: column;
+}
+
+
 nav {
     display: flex;
     justify-content: space-between;
@@ -66,17 +72,19 @@ ul, li {
 a {
     color: rgba(0,0,0,0.87);
     text-decoration: none;
+    margin-right: 2vh;
 }
 
-li>img {
+img {
     width: 20px;
     height: 20px;
 }
 
 .profile-pic {
-    width: 36px;
-    height: 36px;
+    width: 35px;
+    height: 35px;
     border-radius: 2em;
+    margin-right: none;
 }
 
 ul {
@@ -88,25 +96,19 @@ ul {
 .left-nav {
     display: flex;
     align-items: center;
-    min-width: 8%;
-}
-
-.left-nav>ul {
-    flex: 1;
-}
-
-.right-nav>ul {
-    flex: 1;
 }
 
 .right-nav {
     display: flex;
-    flex: 2;
     align-items: center;
-    max-width: 15%;
+    float: right;
 }
 
 
-li>img {
+a>img {
     margin-left: 1rem;
+}
+
+.right-nav li:last-child>a {
+    margin-right: 0;
 }
