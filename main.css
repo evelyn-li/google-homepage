@@ -46,21 +46,67 @@ table {
 
 /* End of CSS Resets */
 
+body {
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+
 nav {
     display: flex;
     justify-content: space-between;
+    padding: 6px;
+    margin: 1em;
+    margin-top: 0.5em;
 }
 
 ul, li {
     display: inline;
 }
 
+a {
+    color: rgba(0,0,0,0.87);
+    text-decoration: none;
+}
+
 li>img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 .profile-pic {
-    width: 32px;
-    height: 32px;
+    width: 36px;
+    height: 36px;
+    border-radius: 2em;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.left-nav {
+    display: flex;
+    align-items: center;
+    min-width: 8%;
+}
+
+.left-nav>ul {
+    flex: 1;
+}
+
+.right-nav>ul {
+    flex: 1;
+}
+
+.right-nav {
+    display: flex;
+    flex: 2;
+    align-items: center;
+    max-width: 15%;
+}
+
+
+li>img {
+    margin-left: 1rem;
 }
