@@ -76,14 +76,12 @@ a>img {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    max-height: 290px;
     height: calc(100% - 560px);
 }
 
 .image img {
     min-width: 172px;
     max-height: 92px;
-    padding-top: 75px;
 }
 
 /* search bar */
