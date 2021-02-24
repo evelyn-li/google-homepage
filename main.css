@@ -77,6 +77,8 @@ a>img {
     justify-content: center;
     align-items: flex-end;
     height: calc(100% - 560px);
+    min-height: 92px;
+    max-height: 290px;
 }
 
 .image img {
