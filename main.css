@@ -75,8 +75,6 @@ a>img {
 .image {
     display: flex;
     justify-content: center;
-    align-items: flex-end;
-    height: calc(100% - 560px);
     min-height: 92px;
     max-height: 290px;
 }
@@ -84,6 +82,7 @@ a>img {
 .image img {
     min-width: 172px;
     max-height: 92px;
+    padding-top: 109px;
 }
 
 /* search bar */
