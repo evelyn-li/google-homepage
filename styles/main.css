@@ -16,7 +16,7 @@ nav {
     justify-content: space-between;
     padding: 6px;
     margin: 1em;
-    margin-top: 0.5em;
+    margin-top: 0.2rem;
 }
 
 ul, li {
@@ -51,13 +51,17 @@ a:hover {
     text-decoration: underline;
 }
 
-a>img {
-    margin-left: 1rem;
+.apps {
+    display: inline-block;
+    padding: 8px;
+    margin-right: 1.5vh;
 }
 
-.apps {
-    width: 18px;
-    height: 18px;
+a>svg {
+    color: #5f6368;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
 }
 
 .profile-pic {
@@ -68,6 +72,10 @@ a>img {
 
 .right-nav li:last-child>a {
     margin-right: 0;
+}
+
+.left-nav a:first-child {
+    margin-right: 2.5vh;
 }
 
 /* logo image */
