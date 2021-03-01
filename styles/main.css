@@ -209,3 +209,16 @@ footer a {
 footer a:last-child {
     margin-right: 0;
 }
+
+/* media queries */
+
+@media (max-width: 632px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .search-bar {
+        max-width: 85%;
+    }
+}
