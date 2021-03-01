@@ -32,6 +32,7 @@ ul {
 .left-nav {
     display: flex;
     align-items: center;
+    margin-left: 1vh;
 }
 
 .right-nav {
@@ -54,7 +55,8 @@ a:hover {
 .apps {
     display: inline-block;
     padding: 8px;
-    margin-right: 1.5vh;
+    margin-right: 1.7vh;
+    margin-left: .5vh;
 }
 
 a>svg {
